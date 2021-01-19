@@ -14,6 +14,7 @@ public class LearnConcatenation {
 		System.out.println("My First Name is " + firstName + "And my Last name is " + lastName); // concatenation with 2 variables
 
 		LearnAccessModifier lam = new LearnAccessModifier();
+		//LearnAccessModifier is the class name, lam is the object name, LearnAccessModifier is the constructor
 		System.out.println(lam.contactNumber); //protected variable
 
 

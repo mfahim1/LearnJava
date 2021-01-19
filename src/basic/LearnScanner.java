@@ -18,9 +18,9 @@ public class LearnScanner {
         System.out.println("Enter your course fee");
         double cFee = input.nextDouble();
         System.out.println("Course Fee is: "+cFee);
-        System.out.println("Enter discount decimal percentage");
+        System.out.println("Enter discount percentage");
         double discount = input.nextDouble();
-        System.out.println("Net Pay is "+ cFee* (1-discount));
+        System.out.println("Course Fee after discount "+ cFee * (1-discount)/100);
         Scanner input1 = new Scanner(System.in);
         input.close();
         input1.close();
