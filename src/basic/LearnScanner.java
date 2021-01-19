@@ -14,10 +14,10 @@ public class LearnScanner {
         System.out.println("First Name is "+ fName);
         System.out.println("Enter your Last Name");
         String lName= input.nextLine();
-        System.out.println("Last Name is"+ lName);
+        System.out.println("Last Name is "+ lName);
         System.out.println("Enter your course fee");
         double cFee = input.nextDouble();
-        System.out.println("Course Fee is :"+cFee);
+        System.out.println("Course Fee is: "+cFee);
         System.out.println("Enter discount decimal percentage");
         double discount = input.nextDouble();
         System.out.println("Net Pay is "+ cFee* (1-discount));

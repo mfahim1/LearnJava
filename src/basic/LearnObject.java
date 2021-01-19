@@ -14,7 +14,7 @@ public class LearnObject {
         System.out.println(dataType.pizzaSize);
 
      // dataType.name   =    "Jack";
-        String fName    =   dataType.firstName  =  "Jack";  //dynamic coding
+        String fName    =   dataType.firstName  =  "Jack";  //dynamic coding reassignment
         System.out.println(fName);
 
    //   dataType.firstName="Soumia";
