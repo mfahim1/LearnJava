@@ -6,6 +6,7 @@ public class LearnConstructor {
     //Constructor has no return type
     //Constructors are used to initialize object
     //AccessModifier className (){  }
+    //A constructor in Java is a special method that is used to initialize objects.
 
     String name; //Declared a variable
     String address;
@@ -67,7 +68,7 @@ public class LearnConstructor {
 
         LearnConstructor jack=new LearnConstructor("Jack",24);
 
-        LearnConstructor runa=new LearnConstructor("Runa Parvin","Queens, NY");
+        LearnConstructor runa=new LearnConstructor("Parvin","Queens, NY");
 
         LearnConstructor cont=new LearnConstructor("Muhammad","Buffalo, NY","7187777777");
 

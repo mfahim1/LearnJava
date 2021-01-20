@@ -22,7 +22,7 @@ public class LearnMethod {
         int num1=40;
         int num2=30;
         int total=num1+num2; //Hard Coded
-        System.out.println("Total Value is "+total);
+        System.out.println("Total Value is "+total); //concatenation
         return total; //Return has to be last line if data type is string or integer,boolean. If it is a return type method
     }
     public static int doSum(int number1, int number2){ //Return Type Method with Parameter/Dynamic Method
