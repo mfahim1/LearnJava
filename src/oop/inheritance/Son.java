@@ -1,6 +1,6 @@
 package oop.inheritance;
 
-public class Son extends Father{ //Multi level inheritance since father already extends grandfather
+public class Son extends Father { //Multi level inheritance since father already extends grandfather
 
     //Variable
     public String favoriteDish="Steak";

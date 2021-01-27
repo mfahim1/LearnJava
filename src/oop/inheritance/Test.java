@@ -25,6 +25,11 @@ public class Test {
         fahim.musician(); //daughter class
         fahim.eyes(); //Father Class
         fahim.playGame(); // Grandfather class
+
+        //Java does NOT Support multiple inheritance as it causes ambiguity
+        //More than one extend is not possible in Java
+
+
     }
 
 }
